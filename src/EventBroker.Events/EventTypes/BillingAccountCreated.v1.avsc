@@ -1,0 +1,35 @@
+{
+  "namespace": "EventBroker.EventTypes",
+  "type": "record",
+  "doc": "The event raised when a task is completed.",
+  "name": "BillingAccountCreated",
+  "fields": [
+    {
+      "name": "Id",
+      "type":
+      {
+        "type": "long"
+        
+      },
+      "doc": "The id of the billing account"
+    },
+    {
+      "name": "CustomerId",
+      "type":
+      {
+        "type": "long"
+        
+      },
+      "doc": "The id of the customer billing account belongs too"
+    },
+    {
+      "name": "CreatedDate",
+      "type":
+      {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "The date when the billing account was created"
+    }
+  ]
+}

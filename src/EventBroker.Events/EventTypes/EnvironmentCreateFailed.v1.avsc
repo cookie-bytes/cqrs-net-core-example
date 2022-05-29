@@ -1,0 +1,26 @@
+{
+  "namespace": "EventBroker.EventTypes",
+  "type": "record",
+  "doc": "The event raised when a task is completed.",
+  "name": "EnvironmentCreateFailed",
+  "fields": [
+    {
+      "name": "CustomerId",
+      "type":
+      {
+        "type": "long"
+        
+      },
+      "doc": "The id of the customer environment create failed for"
+    },
+    {
+      "name": "CreatedDate",
+      "type":
+      {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "The date when the environment create failed"
+    }
+  ]
+}

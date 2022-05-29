@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BluePrism.Kafka.Avro.Serializers" Version="20220504.1.0" />
+    <PackageReference Include="Confluent.Kafka" Version="1.8.2" />
+  </ItemGroup>
+
+</Project>

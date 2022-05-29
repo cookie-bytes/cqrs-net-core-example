@@ -1,0 +1,42 @@
+{
+  "namespace": "EventBroker.EventTypes",
+  "type": "record",
+  "doc": "The event raised when a task is completed.",
+  "name": "CustomerCreated",
+  "fields": [
+    {
+      "name": "Id",
+      "type":
+      {
+        "type": "long"
+        
+      },
+      "doc": "The id of the customer"
+    },
+    {
+      "name": "CreatedDate",
+      "type":
+      {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      },
+      "doc": "The date when the customer was created"
+    },
+    {
+      "name": "FirstName",
+      "type":
+      {
+        "type": "string"        
+      },
+      "doc": "The first name of the customer"
+    },
+    {
+      "name": "LastName",
+      "type":
+      {
+        "type": "string"        
+      },
+      "doc": "The last name of the customer"
+    }
+  ]
+}
